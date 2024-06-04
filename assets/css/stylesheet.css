@@ -1,0 +1,118 @@
+#main-content h1 
+{
+    color: white !important;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    width: 500px;
+}
+
+#main-content p
+{
+    height: 100px;
+}
+
+.who
+{
+    margin:100px;
+    margin-left: 0;
+    margin-right:0;
+    background-color: antiquewhite;
+    padding:50px;
+}
+
+#history .img1,.img2,.img3
+{
+    height: 350px;
+    border: 10px solid rgb(109, 68, 13);
+    filter:drop-shadow(rgb(73, 53, 13) 1rem 1rem 10px)
+}
+
+.content
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:20px;
+    row-gap: 100px;
+    margin-bottom:50px; 
+    padding: 100px;
+    padding-bottom: 50px;
+}
+
+.img1,.img3
+{
+    transform: rotate(-10deg);
+}
+
+#history h1
+{
+    margin:50px;
+    text-align: center;
+    font-size:50px;
+}
+
+.img2
+{
+    transform: rotate(10deg);
+    margin-left:100px;
+}
+
+.content p
+{
+    font-size: 1.5rem;
+}
+
+.chevron-right
+{
+    height:15px;
+    margin:5px;
+}
+
+#history .btn
+{
+    margin:10px;
+    padding-right:0;
+}
+
+.asli
+{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.map img
+{
+    width:600px;
+    border:10px solid black;
+    filter:drop-shadow(rgb(73, 53, 13) 1rem 1rem 10px)
+}
+
+.write
+{
+    padding:50px;
+}
+
+.critic
+{
+   height:500px;
+   border:10px solid black;
+   filter:drop-shadow(rgb(73, 53, 13) 1rem 1rem 10px)
+}
+
+#testimonials {
+    background-color: rgb(226, 196, 147) !important;
+}
+
+.review
+{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#testimonials p
+{
+    font-size: 2rem;
+    font-weight:400;
+}
